@@ -11,7 +11,7 @@ export const Recommandation = () => {
       <section className={styles.container} id="recommandation">
         <h2 className={styles.title}>Recommandation</h2>
         <div className={styles.marqueecontainer}>
-            <Marquee pauseOnHover={true} direction={"right"} speed={200} autoFill={true} >
+            <Marquee pauseOnHover={true} speed={200} autoFill={true} >
             <ul className={styles.marqueecontent}>
               {recommand.map((item, id) => {
                 return (
